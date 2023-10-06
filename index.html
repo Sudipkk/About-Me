@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,500&family=Recursive:wght@500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(6, 6, 24)
+        }
+
+        .container1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(24, 24, 71);
+            color: white;
+            height: 40px;
+        }
+
+        .container1 .left a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container1 .left a:hover {
+            color: aqua;
+            font-size: 1.3rem;
+        }
+
+        .container2 .left p {
+            color: white;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .container2 .right img {
+            width: 300px;
+            border-radius: 1000px;
+            border: 2px solid white;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        #element {
+            color: rgb(192, 176, 146);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+
+        .container3 {
+            background-color: wheat;
+            margin: 50px 60px;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+        .container3 .center img {
+            width: 100px;
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            padding: 40px 0;
+        }
+
+        .container3 .center p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .container4 p {
+            color: white;
+            background-color: rgb(24, 24, 71);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container1">
+                <div class="left"><a href="index.html">About Me</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container2">
+            <div class="left">
+                <p> Hi My Name Is Sudip </p>
+            </div>
+            <div class="right"><img
+                    src="https://cdna.artstation.com/p/assets/images/images/033/255/826/large/pham-the-vinh-92f341190b289ca2605e3cd9be99df6e.jpg?1608941353"
+                    alt="Oreki image"></div>
+            <span id="element"></span>
+        </div>
+
+        <div class="container3">
+            <div class="center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png"
+                    alt="insta logo">
+                <p> <a href="https://www.instagram.com/idk__9_/">Follow Me On My Insatgram</a> </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container4">
+            <p> Copyright &copy; Reserved By Unknown</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Just An Average Boring  Guy', 'Dont Have Any Hobbies', 'Not Good At Anything'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
